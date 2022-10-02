@@ -1,0 +1,73 @@
+.container{
+    max-width: 1260px;
+    min-height: 100%;
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Start Page */
+.button {
+    padding: 0 10px;
+    height: 50px;
+    background-color: #008CBA;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.seconds {
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(1, 1, 1, 0.1);
+    font-size: 34px;
+}
+
+/* Popap */
+.popup{
+    display: none;
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+    position:fixed;
+    top: 0;
+    justify-content:center;
+    align-items:center;
+}
+
+.popup-content{
+    width:60%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction:column;
+}
+
+.b-exit {
+    display: flex;
+    justify-content: end;
+}
+
+.exit {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 0;
+    font-size: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.exit:hover {
+    background-color: #f93b3b;
+}
+
+.image {
+    padding: 10px;
+    background: url('../images/1.png') 0 0/100% 100% no-repeat;
+    height: 100%;
+    width: 100%;
+}
